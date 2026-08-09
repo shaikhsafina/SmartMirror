@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Raspberry Pi / Raspbian specific
+*.log
+*.pid
+
+# Config / secrets - IMPORTANT: keep credentials out of the repo
+config.ini
+secrets.py
+.env
+credentials.json
+wifi_config.txt
+api_keys.py
+
+# OS junk files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs and databases
+*.sqlite3
+*.db
